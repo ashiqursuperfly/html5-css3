@@ -1,0 +1,19 @@
+h1 {
+  color: #e21f21;
+  text-decoration: underline;
+  font-family: cursive,monospace;
+}
+p{
+  color: rgb(120,120,255);
+  font-size: 20px;
+  font-family:fantasy,sans-serif;
+}
+/*
+this is how we can group common stylings to some tags
+ */
+
+h1,p{
+  margin-left: 10px;
+}
+
+/** both h1 & p will have margin-left:10px **/

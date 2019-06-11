@@ -1,0 +1,10 @@
+h3 {
+  color: #e21f21;
+  text-decoration: underline;
+  font-family: cursive,monospace;
+}
+p{
+  color: rgb(120,120,255);
+  font-size: 20px;
+  font-family:fantasy,sans-serif;
+}

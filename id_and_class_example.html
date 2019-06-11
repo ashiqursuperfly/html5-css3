@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Basic Web Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/id_and_class_example.css">
+  </head>
+
+  <body>
+    <p>Suppose,you need to add styling to only a specific item say item2 of the list.<br>
+      adding a styling li in our .css file will style all list items but we want only item2.<br>
+      So we need to identify our item2 specifically.One way to do it is.<br>
+      Adding ID our specific tag.Be smart about naming those IDs<br><br>
+      <I>** Note:you can reuse your IDs . But,its very bad practice.We use Ids to target very specific elements.Not too reuse them.See Also : class **</I>
+    </p>
+    <h2>This is an unordered List</h2>
+    <ul>
+      <li>Item1</li>
+      <li>Item2</li>
+      <li id="list1_item3">Item3</li>
+    </ul>
+    <p>Here,we are reusing the ID. But its bad practice</p>
+    <dl>
+      <dt id="list1_item3">Definition Term1</dt>
+      <dd>Definition Details1</dd>
+      <dt>Definition Term2</dt>
+      <dd>Definition Details2</dd>
+      <dt>Definition Term2</dt>
+      <dd>Definition Details2</dd>
+    </dl>
+    <p>
+      Now lets use class. Notice, how we gave the class a more generic name this type.
+    </p>
+    <dl>
+      <dt class="emphasised_list_item">Definition Term1</dt>
+      <dd>Definition Details1</dd>
+      <dt class="emphasised_list_item">Definition Term2</dt>
+      <dd>Definition Details2</dd>
+      <dt class="emphasised_list_item">Definition Term2</dt>
+      <dd>Definition Details2</dd>
+    </dl>
+
+    <p>
+      Finally notice how we specified the style in our css file for the Id and Class like #id & .class
+    </p>
+
+  </body>
+
+</html>
