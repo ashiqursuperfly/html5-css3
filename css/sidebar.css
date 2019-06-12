@@ -1,0 +1,42 @@
+.wrap {
+  width: 80%;
+  min-width: 600px;
+  margin: auto;
+
+}
+.content,aside{
+  height: 600px;
+}
+.content{
+  float: left;
+  background-color: yellow;
+  min-width: 450px;
+  width: 85%;
+
+}
+aside{
+  background-color: violet;
+  float: left;
+  min-width: 60px;
+  width: 15%;
+}
+aside ul {
+  padding-left: 3px;
+  list-style: none;
+}
+aside ul li {
+  font-style: bold;
+  font-family: cursive,serif;
+}
+
+#imp_note,h2{
+  font-size: 20px;
+  font-family: cursive,sans-serif;
+  font-style: oblique;
+}
+h2{
+  font-size: 20px;
+  font-family: cursive,sans-serif;
+  font-style: oblique;
+  color: red;
+}

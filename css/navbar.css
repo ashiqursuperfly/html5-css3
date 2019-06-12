@@ -1,0 +1,50 @@
+.wrap {
+  width: 80%;
+  min-width: 600px;
+  margin: auto;
+
+}
+
+.content{
+  float: left;
+  background-color: yellow;
+  min-width: 450px;
+  width: 85%;
+
+}
+.wrap ul li{
+  font-family: verdana;
+  display: inline;
+  padding-right: 15px;
+
+}
+.wrap ul li a{
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+/* css pseudo-class hover applies given styling when user hovers over the element with the mouse */
+.wrap ul li a:hover{
+  text-decoration: underline;
+  color: violet;
+  font-size:25px;
+}
+
+
+#imp_note,h2{
+  font-size: 20px;
+  font-family: cursive,sans-serif;
+  font-style: oblique;
+}
+
+h2{
+  font-size: 20px;
+  font-family: cursive,sans-serif;
+  font-style: oblique;
+  color: red;
+}
+.navbar{
+  background-color: #a3e3ff;
+  width: 100%;
+
+}
