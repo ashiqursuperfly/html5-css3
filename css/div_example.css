@@ -1,15 +1,18 @@
 h2 {
   color: #e21f21;
   text-decoration: underline;
-  font-family: cursive,monospace;
+  font-family: cursive, monospace;
 }
-p{
-  color: rgb(120,120,255);
+
+p {
+  color: rgb(120, 120, 255);
   font-size: 20px;
-  font-family:cursive,sans-serif;
+  font-family: cursive, sans-serif;
 }
-div{
-  margin: auto; /** Adds equal margin-left & equal margin-right **/
+
+div {
+  margin: auto;
+  /** Adds equal margin-left & equal margin-right **/
   width: 500px;
   background-color: black;
 }

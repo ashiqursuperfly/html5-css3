@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Basic Web Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/form.css">
+  </head>
+
+  <body>
+    <div id="notes">
+      <h2>This is a form example</h2>
+      <ul>
+        <li>Use "for" attr of "label" tag to specify what element u are labeling.
+          This Enables additional features like,activating a input field when clicked on label</li>
+        <li>Note the two attributes of "input tag", "id" & "name" .
+          <ul>
+            <li>The id can be used to specify style for the input in the .css file.</li>
+            <li>The name is used in server side languages like javascript,python</li>
+            <li>Its good practice to half same value for both the id & name attribute like we've done here.</li>
+          </ul>
+        </li>
+        <li>Notice the "method" attribute on the form tag.it's value can be "post" or "get".
+          If you know about http you probably know about these.</li>
+      </ul>
+    </div>
+    <form class="form" action="navbar.html" method="post">
+      <ul>
+        <li>
+          <label for="email_input">Enter Email</label>
+          <input id="email_input" name="email_input">
+        </li>
+        <li>
+          <label for="comments_texarea_input">Enter Comments</label>
+          <textarea id="comments_texarea_input" name="comments_texarea_input"></textarea>
+        </li>
+
+        <li>
+          <label for="are_u_a_robot_checkbox">Are u a robot?</label>
+          <input type="checkbox" name="are_u_a_robot_checkbox" />
+        </li>
+        <label for="fav_languages_radio">Favourite Languages</label>
+        <ul>
+          <li><input type="radio" name="fav_languages_radio" />Java</li>
+          <li><input type="radio" name="fav_languages_radio" />Javascript</li>
+          <li><input type="radio" name="fav_languages_radio" />Python</li>
+          <li><input type="radio" name="fav_languages_radio" />C#</li>
+        </ul>
+        <li>
+          <input type="submit" value="Enter Comment"></li>
+      </ul>
+
+    </form>
+  </body>
+
+</html>

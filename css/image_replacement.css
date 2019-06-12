@@ -1,0 +1,19 @@
+#cutting_off{
+  background: url(../images/sun2.png) no-repeat;
+    text-indent: -9999px;
+  display: inline;
+  font-style: italic;
+  font-family: cursive;
+
+}
+#no_cutting_off{
+  background: url(../images/sun2.png) no-repeat;
+  text-indent: -9999px;
+
+  display: inline;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 142px;
+  height: 142px;
+  width:148px;
+}

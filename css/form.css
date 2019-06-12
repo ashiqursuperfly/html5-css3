@@ -1,0 +1,28 @@
+.form {
+  padding: 5px;
+}
+
+#notes {
+  font-family: cursive, serif;
+}
+
+.form li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+form ul {
+  padding-left: 0px;
+  /*overwrides default padding provided by the browser -webkit*/
+}
+
+.form label {
+  display: block;
+  cursor: pointer;
+  color: blue;
+}
+
+#comments_texarea_input {
+  width: 500px;
+  height: 200px;
+}
